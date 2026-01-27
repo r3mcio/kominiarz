@@ -1,0 +1,28 @@
+
+> myapp@0.0.0 build
+> vite build
+
+vite v7.3.0 building client environment for production...
+transforming...
+✓ 1750 modules transformed.
+✗ Build failed in 575ms
+error during build:
+src/main.js (2:9): "createHead" is not exported by "node_modules/@unhead/vue/dist/index.mjs", imported by "src/main.js".
+file: /Users/kamil/Desktop/kominiarz-test/src/main.js:2:9
+
+1: import { createApp } from 'vue'
+2: import { createHead } from '@unhead/vue'
+            ^
+3: import './style.css'
+4: import App from './App.vue'
+
+    at getRollupError (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/node-entry.js:16994:16)
+    at Module.traceVariable (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/node-entry.js:17450:29)
+    at ModuleScope.findVariable (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/node-entry.js:15113:39)
+    at Identifier.bind (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/node-entry.js:5448:40)
+    at CallExpression.bind (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/node-entry.js:2817:23)
+    at CallExpression.bind (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/node-entry.js:12148:15)
+    at VariableDeclarator.bind (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/node-entry.js:2817:23)
+    at VariableDeclaration.bind (file:///Users/kamil/Desktop/kominiarz-test/node_modules/rollup/dist/es/shared/node-entry.js:2813:28)
