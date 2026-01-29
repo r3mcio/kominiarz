@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Sitemap from 'vite-plugin-sitemap'
-import prerender from 'vite-plugin-prerender-cp' // <--- 1. Import pluginu
 import sharp from 'sharp'
 import fs from 'fs'
 import path from 'path'
@@ -9,8 +8,8 @@ import path from 'path'
 // --- KONFIGURACJA TRAS ---
 // Definiujemy trasy w jednym miejscu, aby użyć ich w Sitemap i Prerender
 const routesToPrerender = [
-  '/', 
-  '/uslugi/czyszczenie-kominow', 
+  '/',
+  '/uslugi/czyszczenie-kominow',
   '/uslugi/przeglady-kominarskie'
 ]
 
@@ -23,7 +22,7 @@ const imageOptimizer = () => {
       if (!fs.existsSync(publicDir)) return;
 
       const files = fs.readdirSync(publicDir)
-      
+
       for (const file of files) {
         const filePath = path.join(publicDir, file)
         const parsed = path.parse(file)
@@ -59,25 +58,8 @@ const imageOptimizer = () => {
 export default defineConfig({
   plugins: [
     vue(),
-    
-    // <--- 2. Konfiguracja Prerender (Generowanie HTML)
-    prerender({
-      staticDir: path.join(__dirname, 'dist'),
-      routes: routesToPrerender, // Używamy zmiennej zdefiniowanej wyżej
-      renderer: {
-        // Czekamy na zdarzenie 'custom-render-trigger' w main.js
-        renderAfterDocumentEvent: 'custom-render-trigger',
-        // Opcjonalnie: czekaj max 5 sekund na render, jeśli zdarzenie nie nadejdzie
-        maxConcurrentRoutes: 10,
-      },
-      minify: {
-        collapseBooleanAttributes: true,
-        collapseWhitespace: true,
-        decodeEntities: true,
-        keepClosingSlash: true,
-        sortAttributes: true,
-      },
-    }),
+
+
 
     // <--- 3. Konfiguracja Sitemap
     Sitemap({
@@ -89,7 +71,7 @@ export default defineConfig({
     imageOptimizer()
   ],
   build: {
-    minify: 'esbuild', 
+    minify: 'esbuild',
     cssCodeSplit: true,
     assetsInlineLimit: 4096,
     rollupOptions: {
