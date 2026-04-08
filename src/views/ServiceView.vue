@@ -206,7 +206,7 @@ onMounted(() => {
             <h3 class="text-2xl font-bold text-brand-dark mb-2">Potrzebujesz pomocy?</h3>
             <p class="text-gray-600 mb-6">Skontaktuj się z nami, aby zamówić usługę w Szczecinku.</p>
             
-            <a href="tel:+48503808711" class="flex items-center justify-center gap-2 w-full bg-brand-orange text-white font-bold py-4 rounded-xl hover:bg-orange-700 transition mb-4 shadow-lg shadow-orange-200">
+            <a href="tel:+48502619993" class="flex items-center justify-center gap-2 w-full bg-brand-orange text-white font-bold py-4 rounded-xl hover:bg-orange-700 transition mb-4 shadow-lg shadow-orange-200">
               <Phone size="20" />
               Zadzwoń teraz
             </a>

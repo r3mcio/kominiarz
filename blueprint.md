@@ -13,14 +13,11 @@ This project is a front-end application built with Vue.js and TypeScript, using 
 *   **Routing**: Basic routing is set up with Vue Router.
 *   **Image Optimization**: A script in `vite.config.js` generates mobile-optimized versions of images.
 
-## Current Task: Performance Optimization
+## Current Task: Contact Information Update
 
-Based on a Lighthouse audit, the application's performance needs to be improved. The current task is to address the following issues:
-
-1.  **Image Optimization**:
-    *   Create multiple responsive sizes for images to reduce file size on different devices.
-    *   Implement the `<picture>` element or `srcset` attribute in Vue components to serve the appropriate image size.
-    *   Improve image compression.
-2.  **Font Loading**:
-    *   Preload fonts to improve loading times.
+Zmiana danych kontaktowych na całej stronie zgodnie z prośbą użytkownika:
+- Zmiana numeru telefonu wszędzie na `+48 502 619 993`
+- Zmiana adresu e-mail wszędzie na `kominiarzpw@gmail.com`
+- Zmiana adresu z Koszalińskiej na `Dalęcino 54` i pozostawienie go w widoku strony tylko w sekcji Kontakt
+- Wpięcie nowego linku iframe w mapach Google w sekcji Kontakt
 

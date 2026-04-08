@@ -1,5 +1,5 @@
 <script setup>
-import { Facebook, Instagram, Linkedin } from 'lucide-vue-next';
+
 import { RouterLink } from 'vue-router';
 </script>
 
@@ -32,22 +32,13 @@ import { RouterLink } from 'vue-router';
           <router-link :to="{ path: '/', hash: '#contact' }" class="hover:text-white transition hover:-translate-y-1 inline-block">Kontakt</router-link>
         </div>
 
-        <!-- Socials -->
-        <div class="flex gap-4" data-aos="fade-up" data-aos-delay="200">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź nasz Facebook" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-orange transition group transform hover:-translate-y-1">
-            <Facebook size="18" class="text-white group-hover:scale-110 transition-transform" />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Odwiedź nasz Instagram" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-orange transition group transform hover:-translate-y-1">
-            <Instagram size="18" class="text-white group-hover:scale-110 transition-transform" />
-          </a>
-          
-        </div>
+
       </div>
       
       <div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-xs" data-aos="fade-in" data-aos-delay="300">
-        <p>&copy; {{ new Date().getFullYear() }} Kominiarz Szczecinek. Wszelkie prawa zastrzeżone.</p>
+        <p>&copy; {{ new Date().getFullYear() }} Usługowy Zakład Kominiarski Paweł Wojtukiewicz. Wszelkie prawa zastrzeżone.</p>
         <router-link to="/polityka-prywatnosci" class="hover:text-white transition mt-2 inline-block">Polityka Prywatności</router-link>
-        <p class="mt-4 text-gray-600">Created by - CodeWave_Szczecinek</p>
+        <p class="mt-4 text-gray-600">Created by - CodeWave</p>
       </div>
     </div>
   </footer>

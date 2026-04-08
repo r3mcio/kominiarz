@@ -9,8 +9,8 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: {
-        title: 'Kominiarz - Usługi Kominiarskie',
-        description: 'Profesjonalne usługi kominiarskie. Czyszczenie, przeglądy i odbiory kominów.',
+        title: 'Kominiarz Szczecinek - Paweł Wojtukiewicz - Usługi Kominiarskie',
+        description: 'Usługi kominiarskie Paweł Wojtukiewicz. Profesjonalne czyszczenie, przeglądy i odbiory kominów w Szczecinku i okolicach.',
         ogImage: '/og-image.jpg'
       }
     },

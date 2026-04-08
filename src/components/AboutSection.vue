@@ -34,12 +34,15 @@ import { ShieldCheck, Award, History } from 'lucide-vue-next';
         <!-- Text Side -->
         <div class="w-full md:w-1/2">
           <h2 class="text-brand-orange font-bold text-sm tracking-widest mb-2 uppercase" data-aos="fade-up">Nasza historia – kominiarz Szczecinek</h2>
-          <h3 class="text-3xl md:text-4xl font-bold text-brand-dark mb-6" data-aos="fade-up" data-aos-delay="100">Zaufanie i Profesjonalizm</h3>
+          <h3 class="text-3xl md:text-4xl font-bold text-brand-dark mb-6" data-aos="fade-up" data-aos-delay="100">Zaufanie i Profesjonalizm Usług Kominiarskich</h3>
           <p class="text-gray-600 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="200">
-            Od wielu lat świadczymy usługi kominiarskie w Szczecinku i okolicach. Tytuł mistrza kominiarskiego uzyskałem w 2000 roku, przejmując firmę po ojcu, który również był wieloletnim kominiarzem.
+            Od wielu lat świadczymy <strong>profesjonalne usługi kominiarskie w Szczecinku</strong> i okolicach. Tytuł mistrza kominiarskiego uzyskałem w 2000 roku, kontynuując rodzinną tradycję i dbając o bezpieczeństwo mieszkańców naszego regionu.
           </p>
-          <p class="text-gray-600 leading-relaxed mb-8" data-aos="fade-up" data-aos-delay="200">
-            Jako członek Korporacji Kominiarzy Polskich, stawiam na rzetelność i bezpieczeństwo naszych klientów. Jesteśmy lokalną firmą z tradycjami, której zależy na dobrych relacjach z mieszkańcami. Każde zlecenie wykonujemy z najwyższą starannością, zgodnie z aktualnymi przepisami prawa budowlanego.
+          <p class="text-gray-600 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="200">
+            Jako certyfikowany kominiarz i członek Korporacji Kominiarzy Polskich, oferuję rzetelne przeglądy, czyszczenie oraz odbiory kominów. Jesteśmy lokalną firmą, dla której Szczecinek jest głównym obszarem działań, ale obsługujemy również okoliczne miejscowości. Każde zlecenie wykonujemy zgodnie z aktualnymi normami i prawem budowlanym.
+          </p>
+          <p class="text-gray-600 leading-relaxed mb-8" data-aos="fade-up" data-aos-delay="300">
+            Regularne czyszczenie i przeglądy przewodów kominowych to nie tylko obowiązek wynikający z przepisów prawa, ale przede wszystkim gwarancja bezpieczeństwa Twojej rodziny. Zaniedbany komin to ryzyko pożaru sadzy lub zaczadzenia. Jako <strong>Kominiarz</strong>, dbam o to, aby Twoja instalacja grzewcza funkcjonowała sprawnie i bezawaryjnie przez cały rok. Posiadamy nowoczesny sprzęt pomiarowy i diagnostyczny, co pozwala nam na precyzyjne wykrywanie usterek.
           </p>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -48,7 +51,7 @@ import { ShieldCheck, Award, History } from 'lucide-vue-next';
                 <ShieldCheck size="24" />
               </div>
               <div>
-                <h4 class="font-bold text-brand-dark">Certyfikaty</h4>
+                <h3 class="font-bold text-brand-dark">Certyfikaty</h3>
                 <p class="text-sm text-gray-500">Uprawnienia mistrzowskie</p>
               </div>
             </div>
@@ -57,7 +60,7 @@ import { ShieldCheck, Award, History } from 'lucide-vue-next';
                 <History size="24" />
               </div>
               <div>
-                <h4 class="font-bold text-brand-dark">Działamy lokalnie</h4>
+                <h3 class="font-bold text-brand-dark">Działamy lokalnie</h3>
                 <p class="text-sm text-gray-500">Szczecinek i okolice</p>
               </div>
             </div>

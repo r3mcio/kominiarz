@@ -69,7 +69,7 @@ onUnmounted(() => {
         <router-link :to="{ path: '/', hash: '#services' }" :class="['font-medium hover:text-brand-orange transition', isScrolled ? 'text-gray-700' : 'text-gray-200']">Usługi</router-link>
         <router-link :to="{ path: '/', hash: '#contact' }" :class="['font-medium hover:text-brand-orange transition', isScrolled ? 'text-gray-700' : 'text-gray-200']">Kontakt</router-link>
         <a 
-          href="tel:+48503808711" 
+          href="tel:+48502619993" 
           aria-label="Zadzwoń do nas"
           class="bg-brand-orange hover:bg-orange-700 text-white px-6 py-2.5 rounded-full font-semibold transition flex items-center gap-2"
         >
@@ -94,7 +94,7 @@ onUnmounted(() => {
       <router-link :to="{ path: '/', hash: '#services' }" @click="isMenuOpen = false" class="text-lg font-medium text-gray-800 hover:text-brand-orange">Usługi</router-link>
       <router-link :to="{ path: '/', hash: '#contact' }" @click="isMenuOpen = false" class="text-lg font-medium text-gray-800 hover:text-brand-orange">Kontakt</router-link>
       <a 
-        href="tel:+48503808711" 
+        href="tel:+48502619993" 
         class="bg-brand-orange text-white px-8 py-3 rounded-full font-semibold"
       >
         Zadzwoń teraz

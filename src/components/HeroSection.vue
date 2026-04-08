@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-vue-next';
 
 const slides = [
   {
-    title: "Bezpieczeństwo <br/>Twojego Domu",
+    title: "Kominiarz Szczecinek – <br/>Bezpieczeństwo Twojego Domu",
     description: "Profesjonalny kominiarz w Szczecinku. Zapewniamy kompleksowe przeglądy i czyszczenie kominów dla Twojego bezpieczeństwa. Skontaktuj się z nami już dziś!"
   },
   {
@@ -38,9 +38,9 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <section class="relative h-screen flex items-center justify-center overflow-hidden bg-gray-900 pt-20 md:pt-0">
+  <section class="relative min-h-[100dvh] lg:h-screen flex flex-col justify-start lg:justify-center lg:items-center overflow-hidden bg-gray-900 pt-32 pb-24 lg:py-0">
     <!-- SEO H1 -->
-    <h1 class="sr-only">Kominiarz Szczecinek – przeglądy i czyszczenie kominów</h1>
+
 
     <!-- Background Image with Overlay -->
     <!-- OPTIMIZATION: Use picture tag or srcset for responsive images -->
@@ -69,13 +69,13 @@ onUnmounted(() => {
           PROFESJONALNE USŁUGI KOMINIARSKIE
         </span>
         
-        <div class="relative min-h-[300px]"> <!-- Fixed height to prevent layout shift -->
+        <div class="relative min-h-[250px] lg:min-h-[450px] flex items-center"> <!-- Increased height to prevent overlap -->
           <Transition name="fade" mode="out-in">
             <!-- OPTIMIZATION: Eager render the first slide title -->
-            <div :key="currentSlideIndex" class="absolute inset-0 animate-fade-in-up-delay">
-              <div class="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6" v-html="slides[currentSlideIndex].title">
-              </div>
-              <p class="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl leading-relaxed">
+            <div :key="currentSlideIndex" class="w-full animate-fade-in-up-delay flex flex-col justify-center lg:absolute lg:inset-0">
+              <h1 class="text-4xl md:text-6xl lg:text-6xl font-bold text-white leading-tight mb-4" v-html="slides[currentSlideIndex].title">
+              </h1>
+              <p class="text-gray-300 text-lg md:text-xl max-w-2xl leading-relaxed">
                 {{ slides[currentSlideIndex].description }}
               </p>
             </div>

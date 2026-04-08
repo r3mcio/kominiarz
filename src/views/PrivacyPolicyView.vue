@@ -6,12 +6,12 @@
       <div class="space-y-6">
         <section>
           <h2 class="text-2xl font-semibold mb-2">1. Postanowienia Ogólne</h2>
-          <p>Niniejsza polityka prywatności ma charakter informacyjny i określa zasady przetwarzania i ochrony danych osobowych przekazywanych przez Użytkowników w związku z korzystaniem przez nich z usług kominiarskich oferowanych przez [Nazwa Firmy] za pośrednictwem serwisu internetowego.</p>
+          <p>Niniejsza polityka prywatności ma charakter informacyjny i określa zasady przetwarzania i ochrony danych osobowych przekazywanych przez Użytkowników w związku z korzystaniem przez nich z usług kominiarskich oferowanych przez Usługowy zakład kominiarski Paweł Wojtukiewicz za pośrednictwem serwisu internetowego.</p>
         </section>
 
         <section>
           <h2 class="text-2xl font-semibold mb-2">2. Administrator Danych</h2>
-          <p>Administratorem Twoich danych osobowych jest [Nazwa Firmy] z siedzibą w [Adres Firmy], NIP: [NIP Firmy].</p>
+          <p>Administratorem Twoich danych osobowych jest Usługowy zakład kominiarski Paweł Wojtukiewicz z siedzibą w Szczecineku 78-400 ul. Koszalińska 66 A/6 , NIP: 6731029056.</p>
         </section>
 
         <section>
